@@ -1,0 +1,42 @@
+<!-- Register Section -->
+<div class="main">
+    <div ng-show="register" ng-class="theme=='dark' ? 'userdark' : 'userlight' " id="register">
+        <div class="image"></div>
+        <div class="comp">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="input" class="input" placeholder="Name" [(ngModel)]="plat.name" />
+            <input type="input" class="input" placeholder="Description" [(ngModel)]="plat.description" />
+            <input type="number" class="input" placeholder="Price" [(ngModel)]="plat.price" />
+            <input type="input" class="input" list="list" placeholder="Restaurant" [(ngModel)]="plat.restaurant" />
+            <datalist id="list">
+                <option value="McDonalds">
+                <option value="Burger King">
+                <option value="KFC">
+                <option value="Pizza Hut">
+                <option value="Subway">
+                <option value="Wendys">
+                <option value="Taco Bell">
+                <option value="Domino's">
+                <option value="Papa John's">
+                <option value="Panda Express">
+                <option value="Chipotle">
+                <option value="Chick-fil-A">
+                <option value="ChaRégale">
+                <option value="Starbucks">
+            </datalist>
+            <input type="input" class="input" placeholder="Ingredients" [(ngModel)]="plat.ingrediants" />
+            <input type="number" class="input" placeholder="Category" [(ngModel)]="plat.categories" />
+            <input type="number" class="input" placeholder="Calories" [(ngModel)]="plat.calories" />
+            <input type="number" class="input" placeholder="Time" [(ngModel)]="plat.time" />
+            <input type="input" class="input" placeholder="Image" [(ngModel)]="plat.image" />
+            <button class="button" (click)="updatePlat(plat)">EDIT product</button>
+
+
+        </div>
+    </div>
+</div>

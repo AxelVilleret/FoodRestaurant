@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+
+<h1 style="padding: 30px;">
+  Welcome to Let's eat
+</h1>
+<div class="cards">
+  <div *ngFor="let element of platList">
+    <app-product-card [plat]="element"></app-product-card>
+    <br>
+  </div>
+</div>

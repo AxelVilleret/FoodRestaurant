@@ -1,0 +1,13 @@
+<app-navbar></app-navbar>
+
+<h1 style="padding: 30px;">
+    Commands 
+</h1>
+
+<br>    
+
+<div class="cards">
+    <div *ngFor="let element of commands">
+        <app-command-card [command]="element"></app-command-card>
+    </div>
+</div>

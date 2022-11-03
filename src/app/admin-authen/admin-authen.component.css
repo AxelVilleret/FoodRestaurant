@@ -1,0 +1,122 @@
+  .main #login .image, .main #register .image {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 90vh;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../../assets/images/SteakOscar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* You can add global styles to this file, and also import other style files */
+.main {
+  width: 100vw;
+  height: 90vh;
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.main #login, .main #register {
+  width: 100vw;
+  height: 90vh;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+.main #login .comp, .main #register .comp {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 50%;
+  text-align: center;
+}
+
+.main #login .comp .logo, .main #register .comp .logo {
+  width: 100%;
+  margin: 1vw auto;
+}
+
+.main #login .comp .logo img, .main #register .comp .logo img {
+  width: 60%;
+}
+
+.main #login .comp .input, .main #register .comp .input {
+  width: 60%;
+  font-family: 'Poppins';
+  margin: 0.5vw auto;
+  font-size: 1.4vw;
+  border: none;
+  border-bottom: 0.1vw solid rgba(0, 0, 0, 0.4);
+  padding: 1vw 0;
+  padding-left: 1vw;
+}
+
+.main #login .comp .input::-webkit-input-placeholder, .main #register .comp .input::-webkit-input-placeholder {
+  padding: 0;
+}
+
+.main #login .comp .input:-ms-input-placeholder, .main #register .comp .input:-ms-input-placeholder {
+  padding: 0;
+}
+
+.main #login .comp .input::-ms-input-placeholder, .main #register .comp .input::-ms-input-placeholder {
+  padding: 0;
+}
+
+.main #login .comp .input::placeholder, .main #register .comp .input::placeholder {
+  padding: 0;
+}
+
+.main #login .comp .button, .main #register .comp .button {
+  width: 60%;
+  font-family: 'Poppins';
+  height: 3vw;
+  margin: 2vw auto;
+  background: #d5800a;
+  padding: 0.5vw 0;
+  border: none;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 4px;
+}
+
+.main #login .comp p, .main #register .comp p {
+  width: 60%;
+  margin: 1vw auto;
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+
+.main #login .comp p span, .main #register .comp p span {
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+<!-- Register Section -->
+<div class="main">
+<div ng-show="register" ng-class="theme =='dark' ? 'userdark' : 'userlight' " id="register">
+    <div class="image"></div>
+    <div class="comp">
+        <form>
+            <input name="email" class="input" id="standard-basic" [(ngModel)]="email"placeholder="Email" />
+            <input name="password" class="input" type="password" id="standard-basic" [(ngModel)]="password" placeholder="Password"  />
+            <button class="button" (click)="register()">REGISTER</button>
+            <p>Already a member? <a [routerLink]="['']">Sign in here</a></p>
+        </form>
+
+    </div>
+</div>
+</div>
+

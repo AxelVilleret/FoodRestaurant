@@ -1,0 +1,24 @@
+<div style = "padding-right: 50px;">
+  <div class="card dimensionscard" style="width: 18rem;">
+    <img [src]="plat.image" class="card-img-top img-fluid dimensionsimg" alt="image de plat">
+    <div class="card-body">
+      <h5 class="card-title">{{plat.name}}</h5>
+      <p class="card-text">Ingrédients : {{plat.ingrediants}}
+        <br>
+        Catégorie : {{affiche(plat.categories)}}
+        <br>
+        Calories : {{plat.calories}}
+        <br>
+        Temps de préparation : {{plat.time}} min
+        <br>
+        Restaurant : {{plat.restaurant}}
+      </p>
+      <div  aria-label="Basic example" style = "bottom:10px; display: flex;  margin-right:20px; ">
+        
+      <button type="button" (click)="redirection(plat)" class="btn btn-outline-warning">Edit</button>
+      <button type="button" (click)="deletePlat(plat)" class="btn btn-danger">Delete</button>
+      </div>
+      
+    </div>
+  </div>
+</div>

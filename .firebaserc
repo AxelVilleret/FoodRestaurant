@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "foodrestaurant-ee559": {
+      "hosting": {
+        "adminPage": [
+          "foodrestaurant-ee559"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "foodrestaurant-ee559"
+  }
+}

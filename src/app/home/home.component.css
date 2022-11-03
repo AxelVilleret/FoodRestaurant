@@ -1,0 +1,7 @@
+
+.cards{ /**helpful for centering the cards**/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
