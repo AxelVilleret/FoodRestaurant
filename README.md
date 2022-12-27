@@ -1,4 +1,10 @@
-# AdminPage
+# FastAndEasyFood
+
+## Description
+
+Site réalisé dans le cadre de ma formation d'ingénieur utilissant le framework Angular pour le front-end et Firebase pour le back-end. L'idée du projet était d'imaginer un système permettant aux utilisateurs de commander et payer leurs repas en ligne au restaurant pour ne pas avoir à toucher le menu dans un contexte de pandémie. Nous avons donc concu une application basé sur Flutter pour le front-end et Firebase pour le back-end. L'application permet de commander des plats, de les payer en ligne et de les récupérer au restaurant. Ce site consitue la partie admin de l'application. Il permet de gérer les plats et les commandes des clients et de les valider.
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
