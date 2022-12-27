@@ -2,7 +2,7 @@
 
 ## Description
 
-Site réalisé dans le cadre de ma formation d'ingénieur utilissant le framework Angular pour le front-end et Firebase pour le back-end. L'idée du projet était d'imaginer un système permettant aux utilisateurs de commander et payer leurs repas en ligne au restaurant pour ne pas avoir à toucher le menu dans un contexte de pandémie. Nous avons donc concu une application basé sur Flutter pour le front-end et Firebase pour le back-end. L'application permet de commander des plats, de les payer en ligne et de les récupérer au restaurant. Ce site consitue la partie admin de l'application. Il permet de gérer les plats et les commandes des clients et de les valider.
+Site created as part of my engineering training using the Angular framework for the front-end and Firebase for the back-end. The idea of the project was to imagine a system allowing users to order and pay for their meals online at the restaurant so as not to have to touch the menu in the context of a pandemic. So we designed an application based on Flutter for the front-end and Firebase for the back-end. The application allows you to order dishes, pay for them online and pick them up at the restaurant. This site constitutes the admin part of the application. It allows you to manage dishes and customer orders and validate them.
 
 ---
 
